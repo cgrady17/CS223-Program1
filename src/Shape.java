@@ -14,7 +14,7 @@ public abstract class Shape {
 
     }
 
-    public abstract boolean hit(p:Point) {
+    public abstract boolean hit(Point p) {
 
     }
 }
