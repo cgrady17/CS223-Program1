@@ -5,16 +5,14 @@
 public abstract class Shape {
 
     // Public Double Method: area()
-    public double area() {
-
+    public double area() throws UnsupportedOperationException{
+        return area();
     }
 
     // Public Double Method: perimeter()
-    public double perimeter() {
-
+    public double perimeter() throws UnsupportedOperationException{
+        return perimeter();
     }
 
-    public abstract boolean hit(Point p) {
-
-    }
+    public abstract boolean hit(Point p);
 }
