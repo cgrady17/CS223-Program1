@@ -7,6 +7,8 @@ import com.sun.javaws.exceptions.InvalidArgumentException;
 public class Rectangle extends Shape {
     private Point upperLeft;
     private Point lowerRight;
+    private Point upperRight;
+    private Point lowerLeft;
 
     private double width;
     private double height;

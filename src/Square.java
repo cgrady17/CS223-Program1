@@ -39,4 +39,9 @@ public class Square extends Rectangle implements Polygon {
     public int numOfSides() {
         return 4;
     }
+
+    @Override
+    public double perimeter() throws UnsupportedOperationException {
+        return super.perimeter();
+    }
 }
